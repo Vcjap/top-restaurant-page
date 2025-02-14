@@ -22,4 +22,4 @@ class menu {
     }
 }
 
-export default new menu;
+export default new menu();

@@ -16,3 +16,5 @@ class contact {
         content.appendChild(email);
     };
 }
+
+export default new contact();

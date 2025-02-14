@@ -1,6 +1,6 @@
 import restaurantImage from "./images/restaurant_stock.jpg";
 
-class webPage {
+class home {
     constructor(){};
     create_page() {
         const container = document.querySelector("div#content");
@@ -52,4 +52,4 @@ class webPage {
     }
 };
 
-export default new webPage;
+export default new home();
