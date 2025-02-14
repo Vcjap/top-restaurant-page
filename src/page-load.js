@@ -1,7 +1,8 @@
 import restaurantImage from "./images/restaurant_stock.jpg";
 
 class webPage {
-    constructor() {
+    constructor(){};
+    create_page() {
         const container = document.querySelector("div#content");
         const title = document.createElement("h1");
         title.textContent = "The best food money can buy";
@@ -51,4 +52,4 @@ class webPage {
     }
 };
 
-export default webPage;
+export default new webPage;
