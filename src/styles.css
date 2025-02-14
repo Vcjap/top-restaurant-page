@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    background-color: rgb(149, 0, 255);
+    color: white;
+}
