@@ -1,9 +1,12 @@
 nav {
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 
 nav button {
     background-color: rgb(149, 0, 255);
     color: white;
+    font-size: 2rem;
+    padding: 10px;
 }
