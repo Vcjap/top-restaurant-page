@@ -1,8 +1,8 @@
 import restaurantImage from "./images/restaurant_stock.jpg";
 
 class webPage {
-    static container = document.querySelector("div#content")
     constructor() {
+        const container = document.querySelector("div#content");
         const title = document.createElement("h1");
         title.textContent = "The best food money can buy";
 
@@ -10,7 +10,7 @@ class webPage {
         heroImage.src = restaurantImage;
 
         const welcomePar = document.createElement("p");
-        welcomePar.textContent("Welcome to our restaurant! We offer a variety of delicious dishes made from the freshest ingredients. Come and enjoy a wonderful dining experience with us.");
+        welcomePar.textContent = ("Welcome to our restaurant! We offer a variety of delicious dishes made from the freshest ingredients. Come and enjoy a wonderful dining experience with us.");
 
         const highlightsSection = document.createElement('section');
         highlightsSection.id = 'highlights';
