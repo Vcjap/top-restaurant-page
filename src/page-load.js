@@ -1,4 +1,4 @@
-import restaurantImage from "images/restaurant_stock.jpg";
+import restaurantImage from "./images/restaurant_stock.jpg";
 
 class webPage {
     static container = document.querySelector("div#content")
